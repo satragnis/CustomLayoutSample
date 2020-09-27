@@ -28,6 +28,8 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation project(':CustomLayoutlibrary')
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'com.airbnb.android:lottie:3.4.2'
+    implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'androidx.core:core-ktx:1.3.1'
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'com.google.android:flexbox:1.0.0'

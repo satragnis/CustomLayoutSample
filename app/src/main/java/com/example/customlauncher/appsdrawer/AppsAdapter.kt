@@ -37,7 +37,7 @@ class AppsAdapter(
             appClickListener.onAppClick(holder.adapterPosition, appsFilterList)
         }
         holder.itemView.setOnLongClickListener {
-            appClickListener.onAppClick(holder.adapterPosition, appsFilterList)
+            appClickListener.onAppLongClick(holder.adapterPosition, appsFilterList)
             true
         }
     }
