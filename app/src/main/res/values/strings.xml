@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CustomLauncher</string>
+    <string name="app_image">app image</string>
+</resources>
