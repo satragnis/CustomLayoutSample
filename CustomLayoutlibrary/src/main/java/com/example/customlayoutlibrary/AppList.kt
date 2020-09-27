@@ -5,9 +5,7 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.content.pm.ResolveInfo
 
-open class AppList {
-
-    companion object {
+object AppList {
         fun getAppList(c: Context): ArrayList<AppInfo> {
             val appsList = ArrayList<AppInfo>()
             val pm: PackageManager = c.packageManager
@@ -34,5 +32,4 @@ open class AppList {
             }
             return appsList
         }
-    }
 }
